@@ -3,11 +3,11 @@ import './Style/LoginAdminStyle.css';
 import MLogo from  '../Images/Manager.png';
 import ALogo from  '../Images/Admin.png';
 
-class LoginAdmin extends Component {
+class LoginManager extends Component {
  render(){
   return(
         <div>
-              <img src={ALogo} alt=''></img>
+              <img src={MLogo} alt=''></img>
         </div>
 
         );
@@ -15,4 +15,4 @@ class LoginAdmin extends Component {
 
 }
 
-export default LoginAdmin;
+export default LoginManager;
