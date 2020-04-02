@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link, NavLink} from 'react-router-dom';
 import './Styles/NavBarStyle.css';
 
 const NavBar=()=>{
@@ -12,10 +13,10 @@ return(
       </div>
 
       <div className="menu">
-        <a href="/">Home</a>
-        <a href="/About">About</a>
-        <a href="/Contacts">Contact</a>
-        <a href="/Services">Services</a>
+        <Link to="/">Home</Link>
+        <NavLink to="/About">About</NavLink>
+        <NavLink to="/Contact">Contact</NavLink>
+        <NavLink to="/Services">Services</NavLink>
       </div>
     </nav>
   </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink} from 'react-router-dom';
 import './Styles/Home.css';
 
 const Home =()=>{
@@ -8,7 +9,7 @@ return(
     <section>
       <h1>Welcome to Manage Mart!!</h1>
       <h4>We Manage Your Things <i classNaame="fa fa-smile-o" aria-hidden="true"></i></h4>
-      <a href='./../Login/Login.js'>Login</a>
+      <NavLink to='./../Login/Login.js'>Login</NavLink>
     </section>
 
   </main>

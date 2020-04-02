@@ -8,6 +8,7 @@ import About from './HomePage/About';
 import Contact from './HomePage/Contact';
 import Services from './HomePage/Services';
 import Login from './Login/Login';
+import LoginManager from './Login/LoginManager';
 
 class App extends Component {
   render(){
@@ -16,13 +17,14 @@ class App extends Component {
         <div className="App">
           <Img >
           <NavBar/>
-          <Footer/>
           <Route exact path='/' component={Home}/>
           <Route path='/About' component={About}/>
           <Route path='/Contact' component={Contact}/>
           <Route path='/Services' component={Services}/>
+          <Footer/>
           </Img> 
           <Route path='/Login' component={Login}/>
+          <Route path='/LoginManager' component={LoginManager}/>
         </div>
       </BrowserRouter>
     )
