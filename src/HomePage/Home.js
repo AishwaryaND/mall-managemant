@@ -1,41 +1,19 @@
-import React,{Component} from 'react';
-import './Styles/Img.css';
+import React from 'react';
+import { NavLink} from 'react-router-dom';
 import './Styles/Home.css';
 
-class Home extends Component{
- render(){
-
+const Home =()=>{
+ 
 return(
-    <div className="main">
-        <nav>
-      <div className="logo">
-        <h1>
-          Manage Mart
-        </h1>
-      </div>
-
-      <div className="menu">
-        <a to="/">Home</a>
-        <a to="/About">About</a>
-        <a to="/Contact">Contact</a>
-        <a to="/Services">Services</a>
-        <a to='/Login'>Login</a>
-      </div>
-    </nav>
-    <div className="bdy">
-
+    <main>
     <section>
       <h1>Welcome to Manage Mart!!</h1>
       <h4>We Manage Your Things <i classNaame="fa fa-smile-o" aria-hidden="true"></i></h4>
-  
+      <NavLink to='./../Login/Login.js'>Login</NavLink>
     </section>
-    
-    </div>
-  
 
-  </div>
+  </main>
 )
- }
 }
 
 export default Home;
