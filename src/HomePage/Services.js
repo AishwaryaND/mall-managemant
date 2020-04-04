@@ -4,9 +4,9 @@ import './Styles/Services.css';
 const Services =(props)=>{
  
 return(
-    <header>
+    <div className='header'>
         <h1>Hi there I am Services</h1>
-    </header>
+    </div>
 )
 }
 

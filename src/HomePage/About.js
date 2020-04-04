@@ -4,9 +4,9 @@ import './Styles/About.css';
 const About =(props)=>{
  
 return(
-    <header>
+    <div className='header'>
         <h1>Hi there I am ABOUT</h1>
-    </header>
+    </div>
 )
 }
 

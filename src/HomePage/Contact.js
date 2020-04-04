@@ -4,9 +4,9 @@ import './Styles/Contact.css';
 const Contact =(props)=>{
  
 return(
-    <header>
+    <div className='header'>
         <h1>Hi there I am Contact</h1>
-    </header>
+    </div>
 )
 }
 

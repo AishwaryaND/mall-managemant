@@ -13,7 +13,7 @@ return(
       </div>
 
       <div className="menu">
-        <NavLink to="/Home">Home</NavLink>
+        <NavLink to="/">Home</NavLink>
         <NavLink to="/About">About</NavLink>
         <NavLink to="/Contact">Contact</NavLink>
         <NavLink to="/Services">Services</NavLink>
