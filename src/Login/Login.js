@@ -3,7 +3,7 @@ import './Style/LoginStyle.css';
 import MLogo from  '../Images/Manager.png';
 import ALogo from  '../Images/Admin.png';
 import LoginAdmin from './LoginAdmin';
-import LoginManager from './LoginManager';
+// import LoginManager from './LoginManager';
 
 class Login extends Component {
 
@@ -18,9 +18,9 @@ class Login extends Component {
      AdminPage = () => {
         this.setState({ isButtonSelected: 'adminLogin' });
     }
-    ManagerPage = () => {
-        this.setState({ isButtonSelected: 'managerLogin' });
-    }
+    // ManagerPage = () => {
+    //     this.setState({ isButtonSelected: 'managerLogin' });
+    // }
     render(){
      return(
         <div className='cover'>
@@ -31,7 +31,8 @@ class Login extends Component {
                     <h2>Manager Login</h2>
                     <p>Managers Can Login Here!!</p>
                     <br/>
-                    <a onClick={this.ManagerPage}>Login</a>
+                    <a >Login</a>
+                    {/* <a onClick={this.ManagerPage}>Login</a> */}
                 </div>
                 <div className='vl'></div>
                 <div className='Admin'>
@@ -41,7 +42,7 @@ class Login extends Component {
                     <br/>
                     <a onClick={this.AdminPage}>Login</a>
                 </div>
-            </div> : this.state.isButtonSelected === 'managerLogin'?<LoginManager/>:<LoginAdmin/> }
+            </div> : this.state.isButtonSelected === 'managerLogin'?null:<LoginAdmin/> }
         </div>
      )
     }
