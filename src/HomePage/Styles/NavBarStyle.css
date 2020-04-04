@@ -38,3 +38,7 @@ nav{
   nav .menu a:hover{
     color: rgb(249, 15, 71);
   }
+
+  nav .menu .active{
+    color: rgb(249, 15, 71);
+  }

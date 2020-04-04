@@ -1,14 +1,4 @@
-.cover{
-    width: 100%;
-    height: 100vh;
-    margin:0;
-    padding: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),url('../../Images/LoginBack1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-  }
-  
+
  .cover .OptionBox{
     position: absolute;
     top: 50%;

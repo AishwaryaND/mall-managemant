@@ -9,7 +9,7 @@ return(
     <section>
       <h1>Welcome to Manage Mart!!</h1>
       <h4>We Manage Your Things <i classNaame="fa fa-smile-o" aria-hidden="true"></i></h4>
-      <NavLink to='./../Login/Login.js'>Login</NavLink>
+      
     </section>
 
   </main>
