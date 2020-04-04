@@ -42,3 +42,7 @@ nav{
   nav .menu .active{
     color: rgb(249, 15, 71);
   }
+
+  nav .menu .inactive{
+    color: rgb(254, 254, 254);
+  }
